@@ -1,0 +1,46 @@
+.about-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #ff6347;
+  font-size: 2em;
+}
+
+.about-description {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.about-list {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1em;
+}
+
+.about-list li {
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .about-title {
+    font-size: 1.5em;
+  }
+
+  .about-description {
+    font-size: 1em;
+  }
+
+  .about-list {
+    font-size: 0.9em;
+  }
+}
